@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.contentStyle{
+    padding: 2rem 2rem;
+
+    .articleContainer{
+        border: solid 2px rgb(162, 162, 162);
+        .articleStyle{
+            padding-bottom: 5rem;
+            h3{
+            font-size: 32px;
+            }
+            span{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .releasedDate{
+                    color: grey;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
